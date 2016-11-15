@@ -1,0 +1,149 @@
+/* Styles */
+/* Text Styles */
+p {
+    margin: 20px;
+    text-align: center;
+    color: #7c868d;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 22px;
+    width: inherit;
+}
+
+h1 {
+    color: #024;
+    font-size: 16px;
+    font-weight: 700;
+    /*Communities: Reinvigorating Student Engagement*/
+}
+
+h2 {
+    color: #005290;
+    font-size: 14px;
+    font-weight: 700;
+    /*Live Webinar*/
+}
+
+h3 {
+    color: #00a1e0;
+    font-size: 14px;
+    font-weight: 700;
+    /*Wed, May 26, 11AM etc..*/
+}
+
+.footertext {
+    color: #7c868d;
+    font-size: 14px;
+    font-weight: 400;
+    /*For footer text and "Featuring Cornell University"*/
+}
+
+.bottomlink {
+    color: #009ddc;
+    text-decoration: underline;
+}
+
+a {
+    color: white;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: 700;
+    background: #024;
+    padding: 16px;
+    border-radius: 21px;
+    display: inline-block;
+}
+
+.webelieve {
+    color: transparent;
+}
+
+.may26th {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* Container Styles*/
+.email-background {
+    background: #f4f4f4;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.email-container {
+    max-width: 553px;
+    background: white;
+    font-family: sans-serif;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 0;
+    max-wifth: 100%;
+}
+
+.bodytext {
+    padding-top: 2px;
+}
+
+.wrapper {
+    width: 553px;
+    overflow: auto; /* so the size of the wrapper is alway the size of the longest content */
+}
+#left-block {
+    float: left;
+    width: 300px;
+    margin-bottom: 2em;
+}
+
+#right-block {
+}
+
+@media screen and (min-width: 600px) {
+   .wrapper #right-block {
+      height: auto;
+      width: 50%
+      float: left;
+      overflow: hidden;
+   }
+}
+
+.pre-header {
+    @extend .email-container;
+    background: #eee;
+    color: #eee;
+    font-size: 5px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footertext {
+color: #545454;
+font-family: "Helvetica Neue";
+font-size: 14px;
+font-weight: 400;
+padding-top: 20px;
+padding-left: 15%;
+padding-right: 15%;
+background: none;
+}
+
+.socialmedia {
+display: flex;
+justify-content: center;
+align-items: center;
+max-width: 553px;
+margin: 0 auto;
+overflow: hidden;
+border-radius: 0;
+max-wifth: 100%;
+}
+
+.image {
+    float: left;
+    width: 300px;
+}
