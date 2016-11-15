@@ -1,66 +1,207 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <!--[if !mso]><!-->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!--<![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salesforce email</title>
-    <link rel="stylesheet" href="styles.scss">
+    <title>Lorem Ipsum email</title>
+    <style type="text/css">
+    /* Styles */
+    /* Text Styles */
+    
+    p {
+        margin: 20px;
+        text-align: center;
+        color: #7c868d;
+        font-family: Arial;
+        font-size: 16px;
+        line-height: 22px;
+        width: inherit;
+    }
+    
+    h1 {
+        color: #024;
+        font-size: 16px;
+        font-weight: 700;
+        /*Communities: Reinvigorating Student Engagement*/
+    }
+    
+    h2 {
+        color: #005290;
+        font-size: 14px;
+        font-weight: 700;
+        /*Live Webinar*/
+    }
+    
+    h3 {
+        color: #00a1e0;
+        font-size: 14px;
+        font-weight: 700;
+        /*Wed, May 26, 11AM etc..*/
+    }
+    
+    .footertext {
+        color: #7c868d;
+        font-size: 14px;
+        font-weight: 400;
+        /*For footer text and "Featuring Cornell University"*/
+    }
+    
+    .bottomlink {
+        color: #009ddc;
+        text-decoration: underline;
+    }
+    
+    a {
+        color: white;
+        font-family: Arial;
+        font-size: 11px;
+        font-weight: 700;
+        background: #024;
+        padding: 16px;
+        border-radius: 21px;
+        display: inline-block;
+    }
+    
+    .webelieve {
+        color: transparent;
+    }
+    
+    .may26th {
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    /* Container Styles*/
+    
+    .email-background {
+        background: #f4f4f4;
+        max-width: 100%;
+        padding: 10px;
+    }
+    
+    .email-container {
+        max-width: 553px;
+        background: white;
+        font-family: sans-serif;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 0;
+        max-width: 100%;
+    }
+    
+    .bodytext {
+        padding-top: 2px;
+    }
+    
+    .wrapper {
+        width: 553px;
+        overflow: auto;
+        /* so the size of the wrapper is alway the size of the longest content */
+    }
+    
+    #left-block {
+        float: left;
+        width: 300px;
+        margin-bottom: 2em;
+    }
+    
+    #right-block {}
+    
+    @media screen and (min-width: 600px) {
+        .wrapper #right-block {
+            height: auto;
+            width: 50% float: left;
+            overflow: hidden;
+        }
+    }
+    
+    .pre-header {
+        @extend .email-container;
+        background: #eee;
+        color: #eee;
+        font-size: 5px;
+    }
+    
+    img {
+        max-width: 100%;
+        display: block;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .footertext {
+        color: #545454;
+        font-family: "Helvetica Neue";
+        font-size: 14px;
+        font-weight: 400;
+        padding-top: 20px;
+        padding-left: 15%;
+        padding-right: 15%;
+        background: none;
+    }
+    
+    .socialmedia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 553px;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 0;
+        max-width: 100%;
+    }
+    
+    .image {
+        float: left;
+        width: 300px;
+    }
+    </style>
     <!--[if (gte mso 9)|(IE)]>
     <style type="text/css">
         table {border-collapse: collapse;}
     </style>
     <![endif]-->
 </head>
+
 <body>
-<div class="email-background">
-
-    <img src="http://placehold.it/130x60">
-
-    <div class="email-container">
-        <div class="wrapper">
-            <div id="left-block">
-
-                <img src="img/istock-000091561383-xxxlarge.png">
+    <div class="email-background">
+        <img src="http://placehold.it/130x60">
+        <div class="email-container">
+            <div class="wrapper">
+                <div id="left-block">
+                    <img src="http://placehold.it/250x250">
+                </div>
+                <div id="right-block">
+                    <h2>LIVE WEBINAR</h2>
+                    <h3>WED, MAY 25, 11AM PT/2PM ET</h3>
+                    <h1>Communities: Reinvigorating Student Engagement</h1>
+                    <p>Featuring Cornell University</p>
+                    <a href="#">REGISTER NOW</a>
+                </div>
             </div>
-            <div id="right-block">
-                <h2>LIVE WEBINAR</h2>
-                <h3>WED, MAY 25, 11AM PT/2PM ET</h3>
-                <h1>Communities: Reinvigorating Student Engagement</h1>
-                <p>Featuring Cornell University</p>
-
-                <a href="#">REGISTER NOW</a>
-            </div>
-        </div>
-
-        <div class="bodytext">
-
-            <p>We believe that every nonprofit should be a Connected Nonprofit, and Salesforce.org is here to help you get there. In 2008, we launched the Nonprofit Starter Pack (NPSP) and over the past decade, it has undergone tremendous development to
-                become the most widely used nonprofit Salesforce application. NPSP is an-easy-to-use fundraising and constituent management application on the Salesforce platform. A free, open-source product developed in partnership with the Salesforce.org
-                community, NPSP is built specifically with the needs of nonprofits in mind. Whether your organization is all-volunteer, moderately staffed, or well-established and resourced, NPSP will help you advance your mission — as it’s doing everyday
-                for tens of thousands of nonprofits.
+            <div class="bodytext">
+                <p>We believe that every nonprofit should be a Connected Nonprofit, and Lorem Ipsum.org is here to help you get there. In 2008, we launched the Nonprofit Starter Pack (NPSP) and over the past decade, it has undergone tremendous development to become the most widely used nonprofit Lorem Ipsum application. NPSP is an-easy-to-use fundraising and constituent management application on the Lorem Ipsum platform. A free, open-source product developed in partnership with the Lorem Ipsum.org community, NPSP is built specifically with the needs of nonprofits in mind. Whether your organization is all-volunteer, moderately staffed, or well-established and resourced, NPSP will help you advance your mission — as it’s doing everyday for tens of thousands of nonprofits.
+                </p>
                 <p class="may26th">On May 26th at 11am PST/2pm EST, we will be hosting an “Introduction to the Nonprofit Starter Pack (NPSP)” Webinar.</p>
-                <p>Join us to learn more about the Nonprofit Starter Pack and understand how you can get started with the top nonprofit application brought to you by Salesforce.org.</p>
-            </p>
-
-            <center><a href="#">REGISTER NOW</a></center>
-
+                <p>Join us to learn more about the Nonprofit Starter Pack and understand how you can get started with the top nonprofit application brought to you by Lorem Ipsum.org.</p>
+                <center><a href="#">REGISTER NOW</a></center>
+            </div>
         </div>
-
+        <div class="footertext">
+            © Copyright 2000-2016 Lorem Ipsum - All rights reserved. Lorem Ipsum and the “no software” logo are registered trademarks of Lorem Ipsum, Inc. Lorem Ipsum owns other registered and unregistered trademarks. Other names used herein may be trademarks of their respective owners. loremipsum.org 50 Fremont, Suite 300, San Francisco, CA, 94105 Uniited States Contact Us: 1-800-677-7389 | 1-800-NO-SOFTWARE
+            <img src="http://placehold.it/200x85">
+            <div class="socialmedia">
+                <img style="float: left;" src="http://placehold.it/30x30">
+                <img style="float: left;" src="http://placehold.it/30x30">
+                <img style="float: left;" src="http://placehold.it/30x30">
+                <img style="float: left;" src="http://placehold.it/30x30">
+            </div>
+        </div>
     </div>
-
-    <div class="footertext">
-        © Copyright 2000-2016 Lorem Ipsum - All rights reserved. Lorem Ipsum and the “no software” logo are registered trademarks of Lorem Ipsum, Inc. Lorem Ipsum owns other registered and unregistered trademarks. Other names used herein may be trademarks of their
-        respective owners. loremipsum.org 50 Fremont, Suite 300, San Francisco, CA, 94105 Uniited States Contact Us: 1-800-677-7389 | 1-800-NO-SOFTWARE
-        <img src="http://placehold.it/200x85">
-<div class="socialmedia">
-    <img style="float: left;" src="img/1.png">
-    <img style="float: left;" src="img/2.png">
-    <img style="float: left;" src="img/3.png">
-    <img style="float: left;" src="img/4.png">
-</div>
-</div>
 </body>
+
 </html>
